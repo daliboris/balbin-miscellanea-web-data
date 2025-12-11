@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+   <description>Bohuslav Balbín, Miscellanea: data</description>
+   <author>Boris Lehečka</author>
+   <website>https://balbin.nacr.cz</website>
+   <status>beta</status>
+   <license>GPLv3</license>
+   <copyright>true</copyright>
+   <type>application</type>
+   <target>balbin-data</target>
+   <prepare>pre-install.xql</prepare>
+   <finish>post-install.xql</finish>
+   <permissions group="tei"
+      mode="rw-rwxr--"
+      user="redaktor" />
+   <change version="0.4.0">
+      <ul xmlns="http://www.w3.org/1999/xhtml">
+         <li>REST API for downloading collections (as a ZIP) and files</li>
+      </ul>
+   </change>
+</meta>
