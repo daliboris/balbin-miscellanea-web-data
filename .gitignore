@@ -1,7 +1,7 @@
 build
-local.*
 *.code-workspace
 *.xstrc
-tests/**
-.vscode/**
+local.*
 .vs/**
+.vscode/**
+tests/**
